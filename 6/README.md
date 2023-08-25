@@ -14,9 +14,12 @@
     ```
 3. Чтобы переопределить сервис базы данных на MySQL 8 без изменения текущего файла docker-compose.yml, 
    можно использовать механизм расширения файла конфигурации Docker Compose. 
-   Созданный новый файл (docker-compose.override.yml) переопределит сервиса базы данных:
+   Созданный новый файл [docker-compose.override.yml](compose.override.yml) переопределит сервиса базы данных:
     ```sh
     services:
     db:
     image: mysql:8.0  # Используем MySQL 8.0 вместо 5.6.47
     ```
+
+### Результат обновленный файл
+>[docker-compose.yml](docker-compose.yml)
