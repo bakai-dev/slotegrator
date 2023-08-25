@@ -1,0 +1,4 @@
+version: '3'
+services:
+  db:
+    image: mysql:8.0  # Используем MySQL 8.0 вместо 5.6.47
